@@ -4,13 +4,16 @@
 KeyCode：
 キーコード一覧が格納されたEnum。
 詳細は一番後ろに
+
 Dir：
 方向が格納されたEnum
 Up,Down,Right,Leftがある。
+
 Pos：
 	座標情報を格納するオブジェクト。
 	new Pos(x座標,y座標)という風に生成できる。
 	Pos.X,Pos.Yで値を取得できる。
+
 TileType：
 	Tileのタイプが格納押されたEnum
 	Tank,Rock,Hole,Emptyがある。
@@ -101,41 +104,18 @@ GetKeyUp：
 
 【KeyCode一覧】
 
-Backspace
-Delete
-Tab
-Clear
-Return
-Pause
-Escape
-Space
-UpArrow
-DownArrow
-RightArrow
-LeftArrow
-A
-B
-C
-D
-E
-F
-G
-H
-I
-J
-K
-L
-M
-N
-O
-P
-Q
-R
-S
-T
-U
-V
-W
-X
-Y
-Z
+| | | |
+|---|---|---|
+|Backspace|Delete|Tab|
+|Clear|Return|Pause|
+|Escape|Space|UpArrow|
+|DownArrow|RightArrow|LeftArrow
+|A|B|C|
+|D|E|F|
+|G|H|I|
+|J|K|L|
+|M|N|O|
+|P|Q|R|
+|S|T|U|
+|V|W|X|
+|Y|Z| |
